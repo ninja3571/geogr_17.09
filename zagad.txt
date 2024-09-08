@@ -1,0 +1,43 @@
+pół wyspy:
+    Skandynawski, Jutlandzki, Kolski, Iberyjski, Bałkański, Arabski, Indyjski (Dekan), Indochiński, Malajski, Kamczatka, 
+    Koreański, Alaska, Labrador, Kalifornijski, Floryda, Jukatan, Somalijski, Jork
+
+wyspy: 
+    Grenlandia, Islandia, Irlandia, Wielka Brytania, Sycylia, Sardynia, Korsyka, Kreta, Cypr, Madagaskar, Cejlon, Sumatra, Jawa, Borneo, Celebes,
+    Filipiny, Nowa Gwinea, Kiusiu, Sikoku, Honsiu, Hokkaido, Tajwan, Galapagos, Nowa Zelandia, Tasmania, Kuba, Haiti, Ziemia Ognista, Hawaje
+
+góry:
+    Kordyliery, Appaluchy Andy, Atlas, Kilimandżaro, Smocze, Ural, Himalaje, Karakorum, Tienszan, Kaukaz, Skandynawskie, Pireneje, Apeniny, 
+    Alpy, Karpaty, Sudety, Wielkie Góry Wododziałowe
+
+niziny:
+    Chińska, Mandżuria, Zachodniosyberyjska, Kotlina Kongo, Amazonki, La Platy
+
+wyżyny:
+    Abisyńska, Środkowosyberyjska, Tybetańska, Gujańska, Brazylijska, Patagonia
+
+pustynie:
+    Sahara, Kalahari, Namib, Gobi, Atakama, Wielka Pustnia Piaszczysta, Bibsona, Wielka Pustynia Wiktorii
+
+
+
+do zrobienia:
+
+    pół wyspy:
+        Skandynawski, Jutlandzki, Kolski, Iberyjski, Bałkański, Arabski, Indyjski (Dekan), Indochiński, Malajski, Kamczatka, 
+        Koreański, Alaska, Labrador, Kalifornijski, Floryda, Jukatan, Somalijski, Jork
+
+    wyspy: 
+
+    góry:
+        Kordyliery, Appaluchy Andy, Atlas, Kilimandżaro, Smocze, Ural, Himalaje, Karakorum, Tienszan, Kaukaz, Skandynawskie, Pireneje, Apeniny, 
+        Alpy, Karpaty, Sudety, Wielkie Góry Wododziałowe
+
+    niziny:
+        Chińska, Mandżuria, Zachodniosyberyjska, Kotlina Kongo, Amazonki, La Platy
+
+    wyżyny:
+        Abisyńska, Środkowosyberyjska, Tybetańska, Gujańska, Brazylijska, Patagonia
+
+    pustynie:
+        Sahara, Kalahari, Namib, Gobi, Atakama, Wielka Pustnia Piaszczysta, Bibsona, Wielka Pustynia Wiktorii

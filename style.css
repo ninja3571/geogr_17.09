@@ -1,0 +1,35 @@
+body{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+#map{ 
+    margin-left: 4%;
+    height: 90vh; 
+    width: 90%;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+path:hover{
+    fill: lawngreen;
+    stroke: lawngreen;
+}
+path::after{
+    fill: #3388ff;
+    stroke: #3388ff;
+}
+
+.wyspy:hover{
+    fill: orange;
+    stroke: orange;
+}
+
+.wyspy:not(:hover){
+    fill: #3388ff;
+    stroke: #3388ff;
+}
