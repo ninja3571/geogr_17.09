@@ -17,7 +17,7 @@ wyżyny:
     Abisyńska, Środkowosyberyjska, Tybetańska, Gujańska, Brazylijska, Patagonia
 
 pustynie:
-    Sahara, Kalahari, Namib, Gobi, Atakama, Wielka Pustnia Piaszczysta, Bibsona, Wielka Pustynia Wiktorii
+    Sahara, Kalahari, Namib, Gobi, Atakama, Wielka Pustnia Piaszczysta, Gibsona, Wielka Pustynia Wiktorii
 
 
 
@@ -40,4 +40,4 @@ do zrobienia:
         
 
     pustynie:
-        Sahara, Kalahari, Namib, Gobi, Atakama, Wielka Pustnia Piaszczysta, Bibsona, Wielka Pustynia Wiktorii
+    
