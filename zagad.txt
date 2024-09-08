@@ -37,7 +37,7 @@ do zrobienia:
         Chińska, Mandżuria, Zachodniosyberyjska, Kotlina Kongo, Amazonki, La Platy
 
     wyżyny:
-        Abisyńska, Środkowosyberyjska, Tybetańska, Gujańska, Brazylijska, Patagonia
+        
 
     pustynie:
         Sahara, Kalahari, Namib, Gobi, Atakama, Wielka Pustnia Piaszczysta, Bibsona, Wielka Pustynia Wiktorii

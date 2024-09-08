@@ -360,6 +360,56 @@ var sard = L.polygon([
 ]).addTo(map);
 sard.bindPopup("SARDYNIA");
 
+// wyżyny
+var abis = L.circle([12.64173678800528, 41.424320227976544], {
+    color: 'purple',
+    fillColor: 'purple',
+    fillOpacity: 0.5,
+    radius: 100000
+}).addTo(map);
+abis.bindPopup("ABISYŃSKA")
+
+var gujan = L.circle([5.144744179874034, -60.76262912387533], {
+    color: 'purple',
+    fillColor: 'purple',
+    fillOpacity: 0.5,
+    radius: 100000
+}).addTo(map);
+gujan.bindPopup("GUJAŃSKA")
+
+var brazy = L.circle([-22.46626969095402, -45.0000429675521], {
+    color: 'purple',
+    fillColor: 'purple',
+    fillOpacity: 0.5,
+    radius: 100000
+}).addTo(map);
+brazy.bindPopup("BRAZYLIJSKA")
+
+var patag = L.circle([-41.72743852428435, -68.87739735768916], {
+    color: 'purple',
+    fillColor: 'purple',
+    fillOpacity: 0.5,
+    radius: 100000
+}).addTo(map);
+patag.bindPopup("PATAGONIA")
+
+var srodSyb = L.circle([68.00012793906902, 95.00012882460817], {
+    color: 'purple',
+    fillColor: 'purple',
+    fillOpacity: 0.5,
+    radius: 100000
+}).addTo(map);
+srodSyb.bindPopup("ŚRODKOWOSYBERYJSKA")
+
+var tybeta = L.circle([32.62234645038015, 86.76206202866628], {
+    color: 'purple',
+    fillColor: 'purple',
+    fillOpacity: 0.5,
+    radius: 400000
+}).addTo(map);
+tybeta.bindPopup("TYBETAŃSKA")
+
+// góry
 var cejl = L.circle([7.500127374768941, 80.75017160537595], {
     color: 'red',
     fillColor: '#f03',

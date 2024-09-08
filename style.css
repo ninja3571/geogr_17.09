@@ -1,4 +1,5 @@
 body{
+    margin: 0px;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -23,13 +24,30 @@ path::after{
     fill: #3388ff;
     stroke: #3388ff;
 }
-
-.wyspy:hover{
-    fill: orange;
-    stroke: orange;
+#legenda{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
-.wyspy:not(:hover){
-    fill: #3388ff;
-    stroke: #3388ff;
+#polWys{
+    color: violet;
+    background-color: grey;
+}
+#wysp{
+    color: #3388ff;
+}
+#gory{
+    color: red;
+}
+#nizin{
+    color: chartreuse;
+    background-color: gray;
+}
+#wyzyn{
+    color: purple;
+}
+#pust{
+    color: orange;
+    background-color: gray;
 }
