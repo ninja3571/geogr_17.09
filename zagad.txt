@@ -24,14 +24,12 @@ pustynie:
 do zrobienia:
 
     pół wyspy:
-        Skandynawski, Jutlandzki, Kolski, Iberyjski, Bałkański, Indochiński, Malajski
-        Somalijski
-
+        
     wyspy: 
 
     góry:
-        Kordyliery, Appaluchy Andy, Atlas, Kilimandżaro, Smocze, Ural, Himalaje, Karakorum, Tienszan, Kaukaz, Skandynawskie, Pireneje, Apeniny, 
-        Alpy, Karpaty, Sudety, Wielkie Góry Wododziałowe
+        Kordyliery, Atlas, Kilimandżaro, Smocze, Himalaje, Karakorum, Tienszan 
+        Alpy, Karpaty, Sudety
 
     niziny:
 

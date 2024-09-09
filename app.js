@@ -371,57 +371,7 @@ var cejl = L.polygon([
 cejl.bindPopup("CEJLON");
 
 // ----------------------------------======================================---------------------------------------=================================---------------------
-// wyżyny
-var abis = L.circle([12.64173678800528, 41.424320227976544], {
-    color: 'purple',
-    fillColor: 'purple',
-    fillOpacity: 0.5,
-    radius: 200000
-}).addTo(map);
-abis.bindPopup("WYŻYNA ABISYŃSKA")
-
-var gujan = L.circle([5.144744179874034, -60.76262912387533], {
-    color: 'purple',
-    fillColor: 'purple',
-    fillOpacity: 0.5,
-    radius: 200000
-}).addTo(map);
-gujan.bindPopup("WYŻYNA GUJAŃSKA")
-
-var brazy = L.circle([-22.46626969095402, -45.0000429675521], {
-    color: 'purple',
-    fillColor: 'purple',
-    fillOpacity: 0.5,
-    radius: 200000
-}).addTo(map);
-brazy.bindPopup("WYŻYNA BRAZYLIJSKA")
-
-var patag = L.circle([-41.72743852428435, -68.87739735768916], {
-    color: 'purple',
-    fillColor: 'purple',
-    fillOpacity: 0.5,
-    radius: 300000
-}).addTo(map);
-patag.bindPopup("WYŻYNA PATAGONIA")
-
-var srodSyb = L.circle([68.00012793906902, 95.00012882460817], {
-    color: 'purple',
-    fillColor: 'purple',
-    fillOpacity: 0.5,
-    radius: 300000
-}).addTo(map);
-srodSyb.bindPopup("WYŻYNA ŚRODKOWOSYBERYJSKA")
-
-var tybeta = L.circle([32.62234645038015, 86.76206202866628], {
-    color: 'purple',
-    fillColor: 'purple',
-    fillOpacity: 0.5,
-    radius: 600000
-}).addTo(map);
-tybeta.bindPopup("WYŻYNA TYBETAŃSKA")
-
-// ----------------------------------======================================---------------------------------------=================================---------------------
-// pustynie
+// pustynie  - ATAKAMA
 var sahar = L.polygon([
     [29.412672, -10.275975],
     [21.648523, -18.931379],
@@ -490,28 +440,6 @@ var s = L.polygon([
 }).addTo(map);
 s.bindPopup("GOBI");
 
-var ataka = L.polygon([
-    [-25.278478694549563, -68.57124336108184],
-    [-25.361148155428975, -69.01545400101043],
-    [-25.803054894211193, -69.11344164217114],
-    [-25.985231288809846, -70.60285378781404],
-    [-28.9179959293468, -71.55006765236764],
-    [-29.181847644916903, -71.52111913739506],
-    [-29.351089436018782, -71.07767769395687],
-    [-29.0446375193283, -70.58804443349386],
-    [-29.37524394745851, -70.47718407263432],
-    [-29.536127432758814, -70.18155644367552],
-    [-29.49593048645857, -69.95983572195644],
-    [-27.129435085862646, -68.78656356952622],
-    [-27.047185414870864, -68.28769194565827],
-    [-26.47802524440673, -68.58331957461705],
-    [-26.16336345944876, -68.38007557970788],
-],{
-    fillColor:'orange',
-    color:'orange',
-}).addTo(map);
-ataka.bindPopup("ATAKAMA");
-
 var wiePustPiasz = L.polygon([
     [-20.48103, 119.79682],
     [-23.813554, 125.472449],
@@ -554,65 +482,7 @@ var wiePustWikt = L.polygon([
 wiePustWikt.bindPopup("WIELKA PUSTYNIA WIKTORII");
 
 // ----------------------------------======================================---------------------------------------=================================---------------------
-// niziny
-
-
-
-var amazo = L.circle([-5.712662, -58.658615], {
-    color: 'chartreuse',
-    fillColor: 'chartreuse',
-    fillOpacity: 0.5,
-    radius: 700000
-}).addTo(map);
-amazo.bindPopup("NIZINA AMAZONKI")
-
-var kotKon = L.circle([-3.829269173417824, 21.6284314370865], {
-    color: 'chartreuse',
-    fillColor: 'chartreuse',
-    fillOpacity: 0.5,
-    radius: 500000
-}).addTo(map);
-kotKon.bindPopup("KOTLINA KONGA")
-
-var laPla = L.polygon([
-    [-33.007796, -52.367074],
-    [-30.009704, -57.287809],
-    [-18.339155, -55.513891],
-    [-16.324735, -65.355361],
-    [-36.04863, -67.115006],
-    [-41.658594, -63.600196],
-],{
-    fillColor: 'chartreuse',
-    color: 'chartreuse',
-}).addTo(map);
-laPla.bindPopup("LA PLATY");
-
-var zachSyb = L.circle([65.774256, 68.270786], {
-    color: 'chartreuse',
-    fillColor: 'chartreuse',
-    fillOpacity: 0.5,
-    radius: 700000
-}).addTo(map);
-zachSyb.bindPopup("NIZINA SACHODNIOSYBERYJSKA")
-
-var nizChin = L.circle([35.946383, 118.756817], {
-    color: 'chartreuse',
-    fillColor: 'chartreuse',
-    fillOpacity: 0.5,
-    radius: 500000
-}).addTo(map);
-nizChin.bindPopup("NIZINA CHIŃSKA")
-
-var mand = L.circle([47.002006, 125.208613], {
-    color: 'chartreuse',
-    fillColor: 'chartreuse',
-    fillOpacity: 0.5,
-    radius: 500000
-}).addTo(map);
-mand.bindPopup("MANDŻURIA")
-
-// ----------------------------------======================================---------------------------------------=================================---------------------
-// pół wyspy
+// pół wyspy  - JORK
 
 var korea = L.polygon([
     [42.987746, 130.016024],
@@ -710,17 +580,6 @@ var jukat = L.polygon([
 }).addTo(map);
 jukat.bindPopup("JUKATAN");
 
-var jork = L.polygon([
-    [-9.792697, 142.253712],
-    [-17.26729, 140.386238],
-    [-18.938802, 147.416727],
-    [-14.156981, 145.131818],
-],{
-    fillColor: 'violet',
-    color: 'violet',
-}).addTo(map);
-jork.bindPopup("JORK");
-
 var alaska = L.polygon([
     [59.21881, -152.656055],
     [58.743029, -157.489516],
@@ -733,19 +592,364 @@ var alaska = L.polygon([
 }).addTo(map);
 alaska.bindPopup("ALASKA");
 
-// var k = L.polygon([
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-// ],{
-//     fillColor: 'violet',
-//     color: 'violet',
-// }).addTo(map);
-// k.bindPopup("");
+var somali = L.polygon([
+    [17.933019, 38.636259],
+    [7.87627, 32.923987],
+    [-1.727089, 41.668157],
+    [2.975668, 49.181992],
+    [12.676708, 51.950247],
+    [11.516006, 44.26065],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+somali.bindPopup("PÓŁWYSEP SOMALIJSKI");
 
+var malajs = L.polygon([
+    [12.031283, 100.423268],
+    [12.975582, 97.698954],
+    [7.787931, 97.655013],
+    [0.821408, 103.543048],
+    [1.832341, 105.476432],
+    [9.309597, 100.379328],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+malajs.bindPopup("PÓŁWYSEP MALAJSKI");
+
+var indChi = L.polygon([
+    [19.844674, 106.091129],
+    [13.360268, 100.203095],
+    [7.482285, 105.168377],
+    [12.116664, 111.320055],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+indChi.bindPopup("PÓŁWYSEP INDOCHIŃSKI");
+
+var balkan = L.polygon([
+    [45.332463, 29.670354],
+    [44.617124, 14.642684],
+    [35.665385, 22.420163],
+    [37.186464, 25.583883],
+    [39.733603, 24.485369],
+    [41.699469, 28.571841],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+balkan.bindPopup("PÓŁWYSEP BAŁKAŃSKI");
+
+var kolski = L.polygon([
+    [70.167146, 32.096251],
+    [66.682455, 32.887181],
+    [65.868833, 39.741908],
+    [67.637995, 42.466223],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+kolski.bindPopup("PÓŁWYSEP KOLSKI");
+
+var skandyn = L.polygon([
+    [70.554007, 19.520143],
+    [61.66383, 3.701543],
+    [57.436948, 6.513739],
+    [58.783895, 10.644151],
+    [55.169304, 13.588178],
+    [55.569064, 16.532195],
+    [59.639049, 19.651974],
+    [61.830345, 17.806471],
+    [65.546555, 24.04603],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+skandyn.bindPopup("PÓŁWYSEP SKANDYNAWSKI");
+
+var iberyj = L.polygon([
+    [43.638362, -2.013716],
+    [44.018972, -9.263908],
+    [36.623418, -9.879076],
+    [35.84323, -5.572901],
+    [37.255943, 0.183311],
+    [42.287134, 3.918259],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+iberyj.bindPopup("PÓŁWYSEP IBERYJSKI");
+
+var jutlan = L.polygon([
+    [57.948536, 10.594871],
+    [57.241723, 8.068289],
+    [53.887929, 7.804645],
+    [53.182433, 10.50699],
+    [54.13337, 11.407771],
+    [56.484698, 11.232009],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+jutlan.bindPopup("PÓŁWYSEP JUTLANDZKI");
+
+// ----------------------------------======================================---------------------------------------=================================---------------------
+// góry
+
+var ural = L.polygon([
+    [68.972045, 65.841499],
+    [63.660374, 56.00003],
+    [51.274966, 54.154755],
+    [50.665879, 61.447986],
+    [64.467935, 58.460397],
+    [68.136099, 68.037299],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+ural.bindPopup("URAL");
+
+var wieGoWo = L.polygon([
+    [-9.60529, 142.210556],
+    [-27.070489, 143.45158],
+    [-29.700358, 149.691139],
+    [-37.524466, 140.639385],
+    [-39.179317, 141.606077],
+    [-38.011034, 150.745712],
+    [-25.175826, 155.227649],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+wieGoWo.bindPopup("WIELKIE GÓRY WODODZIAŁOWE");
+
+var appal = L.polygon([
+    [53.215359, -55.358593],
+    [45.628771, -71.350981],
+    [36.150118, -84.53152],
+    [34.427662, -82.071153],
+    [43.817157, -70.735889],
+    [45.812941, -63.618398],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+appal.bindPopup("APPALUCHY");
+
+var andy = L.polygon([
+    [7.55149, -77.33523],
+    [-3.591552, -83.486148],
+    [-15.78861, -77.33523],
+    [-52.663181, -75.660045],
+    [-52.018518, -70.387829],
+    [-18.241393, -62.303765],
+    [-6.322194, -76.538747],
+    [4.731374, -71.968863],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+andy.bindPopup("ANDY");
+
+var kaukaz = L.polygon([
+    [44.553705, 43.249262],
+    [44.553705, 37.713436],
+    [43.094696, 40.437414],
+    [42.675908, 43.556808],
+    [39.901595, 48.433608],
+    [41.204343, 48.960829],
+    [43.638049, 46.544397],
+    [43.562848, 44.739743],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+kaukaz.bindPopup("KAUKAZ");
+
+var skndyn = L.polygon([
+    [70.699392, 23.571851],
+    [69.777924, 18.036025],
+    [61.767341, 5.909929],
+    [58.439693, 6.26141],
+    [61.558654, 13.818252],
+    [68.267552, 21.462965],
+    [69.271599, 23.780624],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+skandyn.bindPopup("GÓRY SKANDYNAWSKIE");
+
+var pireneje = L.polygon([
+    [43.799309, -1.159593],
+    [43.129196, -1.752717],
+    [41.94682, 3.14605],
+    [43.048926, 3.14605],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+pireneje.bindPopup("PIRENEJE");
+
+var apenin = L.polygon([
+    [44.993473, 9.452681],
+    [42.646492, 11.978951],
+    [40.458867, 15.625567],
+    [39.430834, 16.064918],
+    [39.921497, 16.504269],
+    [41.339499, 15.625567],
+    [44.399677, 11.891081],
+    [45.041712, 10.287835],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+apenin.bindPopup("APENINY");
+
+// ----------------------------------======================================---------------------------------------=================================---------------------
+// niziny
+
+var amazo = L.circle([-5.712662, -58.658615], {
+    color: 'chartreuse',
+    fillColor: 'chartreuse',
+    fillOpacity: 0.5,
+    radius: 700000
+}).addTo(map);
+amazo.bindPopup("NIZINA AMAZONKI")
+
+var kotKon = L.circle([-3.829269173417824, 21.6284314370865], {
+    color: 'chartreuse',
+    fillColor: 'chartreuse',
+    fillOpacity: 0.5,
+    radius: 500000
+}).addTo(map);
+kotKon.bindPopup("KOTLINA KONGA")
+
+var laPla = L.polygon([
+    [-33.007796, -52.367074],
+    [-30.009704, -57.287809],
+    [-18.339155, -55.513891],
+    [-16.324735, -65.355361],
+    [-36.04863, -67.115006],
+    [-41.658594, -63.600196],
+],{
+    fillColor: 'chartreuse',
+    color: 'chartreuse',
+}).addTo(map);
+laPla.bindPopup("LA PLATY");
+
+var zachSyb = L.circle([65.774256, 68.270786], {
+    color: 'chartreuse',
+    fillColor: 'chartreuse',
+    fillOpacity: 0.5,
+    radius: 700000
+}).addTo(map);
+zachSyb.bindPopup("NIZINA SACHODNIOSYBERYJSKA")
+
+var nizChin = L.circle([35.946383, 118.756817], {
+    color: 'chartreuse',
+    fillColor: 'chartreuse',
+    fillOpacity: 0.5,
+    radius: 500000
+}).addTo(map);
+nizChin.bindPopup("NIZINA CHIŃSKA")
+
+var mand = L.circle([47.002006, 125.208613], {
+    color: 'chartreuse',
+    fillColor: 'chartreuse',
+    fillOpacity: 0.5,
+    radius: 500000
+}).addTo(map);
+mand.bindPopup("MANDŻURIA")
+
+// ----------------------------------======================================---------------------------------------=================================---------------------
+// wyżyny
+
+var abis = L.circle([12.64173678800528, 41.424320227976544], {
+    color: 'purple',
+    fillColor: 'purple',
+    fillOpacity: 0.5,
+    radius: 200000
+}).addTo(map);
+abis.bindPopup("WYŻYNA ABISYŃSKA")
+
+var gujan = L.circle([5.144744179874034, -60.76262912387533], {
+    color: 'purple',
+    fillColor: 'purple',
+    fillOpacity: 0.5,
+    radius: 200000
+}).addTo(map);
+gujan.bindPopup("WYŻYNA GUJAŃSKA")
+
+var brazy = L.circle([-22.46626969095402, -45.0000429675521], {
+    color: 'purple',
+    fillColor: 'purple',
+    fillOpacity: 0.5,
+    radius: 200000
+}).addTo(map);
+brazy.bindPopup("WYŻYNA BRAZYLIJSKA")
+
+var patag = L.circle([-41.72743852428435, -68.87739735768916], {
+    color: 'purple',
+    fillColor: 'purple',
+    fillOpacity: 0.5,
+    radius: 300000
+}).addTo(map);
+patag.bindPopup("WYŻYNA PATAGONIA")
+
+var srodSyb = L.circle([68.00012793906902, 95.00012882460817], {
+    color: 'purple',
+    fillColor: 'purple',
+    fillOpacity: 0.5,
+    radius: 300000
+}).addTo(map);
+srodSyb.bindPopup("WYŻYNA ŚRODKOWOSYBERYJSKA")
+
+var tybeta = L.circle([32.62234645038015, 86.76206202866628], {
+    color: 'purple',
+    fillColor: 'purple',
+    fillOpacity: 0.5,
+    radius: 600000
+}).addTo(map);
+tybeta.bindPopup("WYŻYNA TYBETAŃSKA")
+
+// ----------------------------------======================================---------------------------------------=================================---------------------
+// poprawki
+
+var jork = L.polygon([
+    [-9.792697, 142.253712],
+    [-17.26729, 140.386238],
+    [-18.938802, 147.416727],
+    [-14.156981, 145.131818],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+jork.bindPopup("JORK");
+
+var ataka = L.polygon([
+    [-25.278478694549563, -68.57124336108184],
+    [-25.361148155428975, -69.01545400101043],
+    [-25.803054894211193, -69.11344164217114],
+    [-25.985231288809846, -70.60285378781404],
+    [-28.9179959293468, -71.55006765236764],
+    [-29.181847644916903, -71.52111913739506],
+    [-29.351089436018782, -71.07767769395687],
+    [-29.0446375193283, -70.58804443349386],
+    [-29.37524394745851, -70.47718407263432],
+    [-29.536127432758814, -70.18155644367552],
+    [-29.49593048645857, -69.95983572195644],
+    [-27.129435085862646, -68.78656356952622],
+    [-27.047185414870864, -68.28769194565827],
+    [-26.47802524440673, -68.58331957461705],
+    [-26.16336345944876, -68.38007557970788],
+],{
+    fillColor:'orange',
+    color:'orange',
+}).addTo(map);
+ataka.bindPopup("ATAKAMA");
 
 function onMapClick(e) {
     alert("You clicked the map at " + e.latlng);
