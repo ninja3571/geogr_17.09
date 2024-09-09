@@ -34,7 +34,7 @@ do zrobienia:
         Alpy, Karpaty, Sudety, Wielkie Góry Wododziałowe
 
     niziny:
-        Chińska, Mandżuria, Zachodniosyberyjska, Kotlina Kongo, Amazonki, La Platy
+        
 
     wyżyny:
         

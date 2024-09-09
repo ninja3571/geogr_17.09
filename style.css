@@ -17,8 +17,8 @@ body{
 }
 
 path:hover{
-    fill: lawngreen;
-    stroke: lawngreen;
+    fill: aqua;
+    stroke: aqua;
 }
 path::after{
     fill: #3388ff;

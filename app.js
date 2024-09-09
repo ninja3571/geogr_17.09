@@ -1,4 +1,4 @@
-var map = L.map('map').setView([51.505, -0.09], 2);
+var map = L.map('map').setView([20, 0], 2);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 10,
     minZoom: 2,
@@ -376,49 +376,49 @@ var abis = L.circle([12.64173678800528, 41.424320227976544], {
     color: 'purple',
     fillColor: 'purple',
     fillOpacity: 0.5,
-    radius: 100000
+    radius: 200000
 }).addTo(map);
-abis.bindPopup("ABISYŃSKA")
+abis.bindPopup("WYŻYNA ABISYŃSKA")
 
 var gujan = L.circle([5.144744179874034, -60.76262912387533], {
     color: 'purple',
     fillColor: 'purple',
     fillOpacity: 0.5,
-    radius: 100000
+    radius: 200000
 }).addTo(map);
-gujan.bindPopup("GUJAŃSKA")
+gujan.bindPopup("WYŻYNA GUJAŃSKA")
 
 var brazy = L.circle([-22.46626969095402, -45.0000429675521], {
     color: 'purple',
     fillColor: 'purple',
     fillOpacity: 0.5,
-    radius: 100000
+    radius: 200000
 }).addTo(map);
-brazy.bindPopup("BRAZYLIJSKA")
+brazy.bindPopup("WYŻYNA BRAZYLIJSKA")
 
 var patag = L.circle([-41.72743852428435, -68.87739735768916], {
     color: 'purple',
     fillColor: 'purple',
     fillOpacity: 0.5,
-    radius: 100000
+    radius: 300000
 }).addTo(map);
-patag.bindPopup("PATAGONIA")
+patag.bindPopup("WYŻYNA PATAGONIA")
 
 var srodSyb = L.circle([68.00012793906902, 95.00012882460817], {
     color: 'purple',
     fillColor: 'purple',
     fillOpacity: 0.5,
-    radius: 100000
+    radius: 300000
 }).addTo(map);
-srodSyb.bindPopup("ŚRODKOWOSYBERYJSKA")
+srodSyb.bindPopup("WYŻYNA ŚRODKOWOSYBERYJSKA")
 
 var tybeta = L.circle([32.62234645038015, 86.76206202866628], {
     color: 'purple',
     fillColor: 'purple',
     fillOpacity: 0.5,
-    radius: 400000
+    radius: 600000
 }).addTo(map);
-tybeta.bindPopup("TYBETAŃSKA")
+tybeta.bindPopup("WYŻYNA TYBETAŃSKA")
 
 // ----------------------------------======================================---------------------------------------=================================---------------------
 // pustynie
@@ -528,35 +528,90 @@ var wiePustPiasz = L.polygon([
 }).addTo(map);
 wiePustPiasz.bindPopup("WIELKA PUSTYNIA PIASZCZYSTA");
 
-// var gibso = L.polygon([
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-// ],{
-//     fillColor:'orange',
-//     color:'orange',
-// }).addTo(map);
-// gibso.bindPopup("GIBSONA");
+var gibso = L.polygon([
+    [-22.616432, 128.478845],
+    [-22.453996, 124.436813],
+    [-26.059806, 123.556991],
+    [-27.238638, 126.215395],
+    [-26.474704, 127.446369],
+],{
+    fillColor:'orange',
+    color:'orange',
+}).addTo(map);
+gibso.bindPopup("GIBSONA");
 
-// var wiePustWikt = L.polygon([
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-// ],{
-//     fillColor:'orange',
-//     color:'orange',
-// }).addTo(map);
-// wiePustWikt.bindPopup("WIELKA PUSTYNIA WIKTORII");
+var wiePustWikt = L.polygon([
+    [-32.189751, 134.081706],
+    [-28.045955, 134.213528],
+    [-26.600769, 122.832924],
+    [-28.162302, 121.910173],
+    [-30.120586, 124.326903],
+    [-29.050067, 126.567871],
+],{
+    fillColor:'orange',
+    color:'orange',
+}).addTo(map);
+wiePustWikt.bindPopup("WIELKA PUSTYNIA WIKTORII");
 
 // ----------------------------------======================================---------------------------------------=================================---------------------
+// niziny
+
+
+
+var amazo = L.circle([-5.712662, -58.658615], {
+    color: 'chartreuse',
+    fillColor: 'chartreuse',
+    fillOpacity: 0.5,
+    radius: 700000
+}).addTo(map);
+amazo.bindPopup("NIZINA AMAZONKI")
+
+var kotKon = L.circle([-3.829269173417824, 21.6284314370865], {
+    color: 'chartreuse',
+    fillColor: 'chartreuse',
+    fillOpacity: 0.5,
+    radius: 500000
+}).addTo(map);
+kotKon.bindPopup("KOTLINA KONGA")
+
+var laPla = L.polygon([
+    [-33.007796, -52.367074],
+    [-30.009704, -57.287809],
+    [-18.339155, -55.513891],
+    [-16.324735, -65.355361],
+    [-36.04863, -67.115006],
+    [-41.658594, -63.600196],
+],{
+    fillColor: 'chartreuse',
+    color: 'chartreuse',
+}).addTo(map);
+laPla.bindPopup("LA PLATY");
+
+var zachSyb = L.circle([65.774256, 68.270786], {
+    color: 'chartreuse',
+    fillColor: 'chartreuse',
+    fillOpacity: 0.5,
+    radius: 700000
+}).addTo(map);
+zachSyb.bindPopup("NIZINA SACHODNIOSYBERYJSKA")
+
+var nizChin = L.circle([35.946383, 118.756817], {
+    color: 'chartreuse',
+    fillColor: 'chartreuse',
+    fillOpacity: 0.5,
+    radius: 500000
+}).addTo(map);
+nizChin.bindPopup("NIZINA CHIŃSKA")
+
+var mand = L.circle([47.002006, 125.208613], {
+    color: 'chartreuse',
+    fillColor: 'chartreuse',
+    fillOpacity: 0.5,
+    radius: 500000
+}).addTo(map);
+mand.bindPopup("MANDŻURIA")
+
+
 
 function onMapClick(e) {
     alert("You clicked the map at " + e.latlng);
