@@ -28,6 +28,7 @@ path::after{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin-left: 15%;
 }
 
 #polWys{
