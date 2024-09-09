@@ -614,6 +614,138 @@ mand.bindPopup("MANDŻURIA")
 // ----------------------------------======================================---------------------------------------=================================---------------------
 // pół wyspy
 
+var korea = L.polygon([
+    [42.987746, 130.016024],
+    [39.823018, 124.062079],
+    [32.873561, 126.149256],
+    [35.652749, 130.147846],
+    [39.5354, 128.126581],
+    [41.424155, 131.510132],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+korea.bindPopup("PÓŁWYSEP KOREAŃSKI");
+
+var arabs = L.polygon([
+    [29.751363, 48.267556],
+    [32.461301, 35.788438],
+    [28.213033, 34.821746],
+    [12.187849, 44.049262],
+    [15.86092, 54.243366],
+    [21.925347, 61.713366],
+    [26.652222, 56.264737],
+    [26.259604, 51.868967],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+arabs.bindPopup("PÓŁWYSEP ARABSKI");
+
+var indyj = L.polygon([
+    [25.000246, 66.718113],
+    [7.4348, 76.604738],
+    [10.301552, 80.647269],
+    [21.813327, 89.083856],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+indyj.bindPopup("PÓŁWYSEP INDYJSKI");
+
+var kamcz = L.polygon([
+    [62.529118, 164.274485],
+    [55.567558, 153.385076],
+    [49.65231, 156.900321],
+    [59.122662, 166.479362],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+kamcz.bindPopup("KAMCZATKA");
+
+var labra = L.polygon([
+    [63.110828, -78.81794],
+    [51.551858, -79.520989],
+    [48.26923, -68.887375],
+    [55.169882, -51.13539],
+    [60.882496, -64.229819],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+labra.bindPopup("LABRADOR");
+
+var kalifo = L.polygon([
+    [31.686969, -114.692642],
+    [32.302207, -117.922273],
+    [27.602231, -115.593124],
+    [22.008121, -110.461753],
+    [23.35786, -108.694566],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+kalifo.bindPopup("PÓŁWYSEP KALIFORNIJSKI");
+
+var flory = L.polygon([
+    [31.256134, -80.899239],
+    [29.664513, -84.17281],
+    [24.619968, -81.184853],
+    [25.55568, -79.471171],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+flory.bindPopup("FLORYDA");
+
+var jukat = L.polygon([
+    [21.736751, -86.172791],
+    [21.471048, -90.347143],
+    [18.62156, -92.47826],
+    [15.913871, -88.743313],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+jukat.bindPopup("JUKATAN");
+
+var jork = L.polygon([
+    [-9.792697, 142.253712],
+    [-17.26729, 140.386238],
+    [-18.938802, 147.416727],
+    [-14.156981, 145.131818],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+jork.bindPopup("JORK");
+
+var alaska = L.polygon([
+    [59.21881, -152.656055],
+    [58.743029, -157.489516],
+    [54.745367, -165.574578],
+    [53.976859, -164.12454],
+    [58.651657, -152.831817],
+],{
+    fillColor: 'violet',
+    color: 'violet',
+}).addTo(map);
+alaska.bindPopup("ALASKA");
+
+// var k = L.polygon([
+//     [],
+//     [],
+//     [],
+//     [],
+//     [],
+//     [],
+// ],{
+//     fillColor: 'violet',
+//     color: 'violet',
+// }).addTo(map);
+// k.bindPopup("");
+
 
 function onMapClick(e) {
     alert("You clicked the map at " + e.latlng);

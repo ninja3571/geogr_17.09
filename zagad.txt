@@ -24,8 +24,8 @@ pustynie:
 do zrobienia:
 
     pół wyspy:
-        Skandynawski, Jutlandzki, Kolski, Iberyjski, Bałkański, Arabski, Indyjski (Dekan), Indochiński, Malajski, Kamczatka, 
-        Koreański, Alaska, Labrador, Kalifornijski, Floryda, Jukatan, Somalijski, Jork
+        Skandynawski, Jutlandzki, Kolski, Iberyjski, Bałkański, Indochiński, Malajski
+        Somalijski
 
     wyspy: 
 
