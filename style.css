@@ -20,10 +20,7 @@ path:hover{
     fill: aqua;
     stroke: aqua;
 }
-path::after{
-    fill: #3388ff;
-    stroke: #3388ff;
-}
+
 #legenda{
     display: flex;
     flex-direction: row;
