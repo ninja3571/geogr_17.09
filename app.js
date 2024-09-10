@@ -808,6 +808,132 @@ var apenin = L.polygon([
 }).addTo(map);
 apenin.bindPopup("APENINY");
 
+var alpy = L.polygon([
+    [48.134355, 14.044309],
+    [47.514467, 7.255493],
+    [45.116046, 5.981217],
+    [43.416074, 6.706236],
+    [43.988194, 7.738839],
+    [45.671774, 7.211553],
+    [46.358751, 10.507094],
+    [47.115471, 13.758695],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+alpy.bindPopup("ALPY");
+
+var himalaje = L.polygon([
+    [35.404622, 75.480938],
+    [34.376858, 73.613464],
+    [28.569026, 79.809083],
+    [26.286362, 88.025967],
+    [26.443932, 90.728311],
+    [28.143431, 90.61846],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+himalaje.bindPopup("HIMALAJE");
+
+var smocze = L.polygon([
+    [-28.440628, 28.873052],
+    [-28.744635, 28.48308],
+    [-29.445757, 28.999381],
+    [-29.932732, 28.735738],
+    [-30.061241, 29.043322],
+    [-29.139004, 29.570608],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+smocze.bindPopup("GÓRY SMOCZE");
+
+var atlas = L.polygon([
+    [37.085562, 8.622148],
+    [34.32684, -3.7841],
+    [32.946455, -9.832885],
+    [29.723555, -9.610259],
+    [32.732662, -0.246886],
+    [34.779468, 8.14576],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+atlas.bindPopup("ATLAS");
+
+var amazo = L.circle([-3.061415, 37.32931], {
+    color: 'red',
+    fillColor: 'red',
+    fillOpacity: 0.5,
+    radius: 200000
+}).addTo(map);
+amazo.bindPopup("KILIMANDŻARO")
+
+
+var tiens = L.polygon([
+    [35.017585, 100.124404],
+    [36.515812, 79.823867],
+    [30.747959, 77.802602],
+    [27.97893, 93.796964],
+    [18.540318, 96.872803],
+    [22.897952, 102.760837],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+tiens.bindPopup("TIENSZAN");
+
+var karak = L.polygon([
+    [42.477399, 79.647477],
+    [43.122572, 67.432002],
+    [33.780797, 72.177583],
+    [35.588305, 76.571638],
+    [39.626784, 74.901897],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+karak.bindPopup("KARAKORUM");
+
+// var a = L.polygon([
+//     [],
+//     [],
+//     [],
+//     [],
+//     [],
+//     [],
+// ],{
+//     fillColor: 'red',
+//     color: 'red',
+// }).addTo(map);
+// a.bindPopup("Y");
+// var a = L.polygon([
+//     [],
+//     [],
+//     [],
+//     [],
+//     [],
+//     [],
+// ],{
+//     fillColor: 'red',
+//     color: 'red',
+// }).addTo(map);
+// a.bindPopup("Y");
+
+// var a = L.polygon([
+//     [],
+//     [],
+//     [],
+//     [],
+//     [],
+//     [],
+// ],{
+//     fillColor: 'red',
+//     color: 'red',
+// }).addTo(map);
+// a.bindPopup("Y");
+
 // ----------------------------------======================================---------------------------------------=================================---------------------
 // niziny
 
