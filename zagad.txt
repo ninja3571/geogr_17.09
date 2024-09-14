@@ -28,8 +28,6 @@ do zrobienia:
     wyspy: 
 
     góry:
-        Kordyliery, Karakorum
-        Karpaty, Sudety
 
     niziny:
 

@@ -896,7 +896,7 @@ var karak = L.polygon([
 }).addTo(map);
 karak.bindPopup("KARAKORUM");
 
-// var a = L.polygon([
+// var kordyl = L.polygon([
 //     [],
 //     [],
 //     [],
@@ -907,21 +907,9 @@ karak.bindPopup("KARAKORUM");
 //     fillColor: 'red',
 //     color: 'red',
 // }).addTo(map);
-// a.bindPopup("Y");
-// var a = L.polygon([
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-// ],{
-//     fillColor: 'red',
-//     color: 'red',
-// }).addTo(map);
-// a.bindPopup("Y");
+// kordyl.bindPopup("KORDYLIERY");
 
-// var a = L.polygon([
+// var karpa = L.polygon([
 //     [],
 //     [],
 //     [],
@@ -932,7 +920,20 @@ karak.bindPopup("KARAKORUM");
 //     fillColor: 'red',
 //     color: 'red',
 // }).addTo(map);
-// a.bindPopup("Y");
+// karpa.bindPopup("KARPATY");
+
+// var sudety = L.polygon([
+//     [],
+//     [],
+//     [],
+//     [],
+//     [],
+//     [],
+// ],{
+//     fillColor: 'red',
+//     color: 'red',
+// }).addTo(map);
+// sudety.bindPopup("SUDETY");
 
 // ----------------------------------======================================---------------------------------------=================================---------------------
 // niziny
