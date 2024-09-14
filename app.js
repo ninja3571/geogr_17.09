@@ -466,7 +466,7 @@ var gibso = L.polygon([
     fillColor:'orange',
     color:'orange',
 }).addTo(map);
-gibso.bindPopup("GIBSONA");
+gibso.bindPopup("PUSTYNIA GIBSONA");
 
 var wiePustWikt = L.polygon([
     [-32.189751, 134.081706],
