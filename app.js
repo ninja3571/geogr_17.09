@@ -977,7 +977,7 @@ var zachSyb = L.circle([65.774256, 68.270786], {
     fillOpacity: 0.5,
     radius: 700000
 }).addTo(map);
-zachSyb.bindPopup("NIZINA SACHODNIOSYBERYJSKA")
+zachSyb.bindPopup("NIZINA ZACHODNIOSYBERYJSKA")
 
 var nizChin = L.circle([35.946383, 118.756817], {
     color: 'chartreuse',
