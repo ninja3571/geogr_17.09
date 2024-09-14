@@ -653,7 +653,7 @@ var kolski = L.polygon([
 }).addTo(map);
 kolski.bindPopup("PÓŁWYSEP KOLSKI");
 
-var skandyn = L.polygon([
+var skandynaw = L.polygon([
     [70.554007, 19.520143],
     [61.66383, 3.701543],
     [57.436948, 6.513739],
@@ -667,7 +667,7 @@ var skandyn = L.polygon([
     fillColor: 'violet',
     color: 'violet',
 }).addTo(map);
-skandyn.bindPopup("PÓŁWYSEP SKANDYNAWSKI");
+skandynaw.bindPopup("PÓŁWYSEP SKANDYNAWSKI");
 
 var iberyj = L.polygon([
     [43.638362, -2.013716],
@@ -768,7 +768,7 @@ var kaukaz = L.polygon([
 }).addTo(map);
 kaukaz.bindPopup("KAUKAZ");
 
-var skndyn = L.polygon([
+var skandyn = L.polygon([
     [70.699392, 23.571851],
     [69.777924, 18.036025],
     [61.767341, 5.909929],
@@ -896,44 +896,48 @@ var karak = L.polygon([
 }).addTo(map);
 karak.bindPopup("KARAKORUM");
 
-// var kordyl = L.polygon([
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-// ],{
-//     fillColor: 'red',
-//     color: 'red',
-// }).addTo(map);
-// kordyl.bindPopup("KORDYLIERY");
+var kordyl = L.polygon([
+    [61.768747, -128.213785],
+    [59.706431, -139.72621],
+    [32.59544, -117.843813],
+    [32.1304, -114.424717],
+    [23.93436, -107.649605],
+    [25.690185, -102.904025],
+    [49.082443, -114.064926],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+kordyl.bindPopup("KORDYLIERY");
 
-// var karpa = L.polygon([
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-// ],{
-//     fillColor: 'red',
-//     color: 'red',
-// }).addTo(map);
-// karpa.bindPopup("KARPATY");
+var karpa = L.polygon([
+    [49.991198, 21.131115],
+    [49.707707, 18.176477],
+    [48.391284, 18.18459],
+    [47.641357, 19.217065],
+    [47.87043, 22.864157],
+    [45.287485, 21.271091],
+    [45.054355, 22.240283],
+    [46.595307, 25.733126],
+    [48.235905, 24.853217],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+karpa.bindPopup("KARPATY");
 
-// var sudety = L.polygon([
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-//     [],
-// ],{
-//     fillColor: 'red',
-//     color: 'red',
-// }).addTo(map);
-// sudety.bindPopup("SUDETY");
+var sudety = L.polygon([
+    [51.405412, 15.053799],
+    [50.950638, 13.702794],
+    [50.442395, 14.197064],
+    [50.547278, 14.99888],
+    [50.034654, 16.756286],
+    [50.414387, 17.096783],
+],{
+    fillColor: 'red',
+    color: 'red',
+}).addTo(map);
+sudety.bindPopup("SUDETY");
 
 // ----------------------------------======================================---------------------------------------=================================---------------------
 // niziny
@@ -1078,7 +1082,7 @@ var ataka = L.polygon([
 }).addTo(map);
 ataka.bindPopup("ATAKAMA");
 
-function onMapClick(e) {
-    alert("You clicked the map at " + e.latlng);
-}
-map.on('click', onMapClick);
+// function onMapClick(e) {
+//     alert("You clicked the map at " + e.latlng);
+// }
+// map.on('click', onMapClick);
